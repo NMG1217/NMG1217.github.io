@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zhaoyang Gu Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" 
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet"> 
+ 
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <!--img src="img/intro-bg.jpeg" alt=""--> 
+            </div>
+            <button class="nav-toggle" aria-label="toggle-navigation">
+                <span class="hamburger"></span>
+                
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a herf="home" class="nav__link"> Home </a></li>
+                    <li class="nav__item"><a herf="services" class="nav__link"> My Service </a></li>
+                    <li class="nav__item"><a herf="about" class="nav__link"> About Me </a></li>
+                    <li class="nav__item"><a herf="work" class="nav__link"> My Work </a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--introduction-->
+        <section class="intro" id="home">
+            <h1 class ="section__title section__title--intro">
+                Hi, I am <strong>Zhaoyang Gu</strong>
+                <p class="section__subtitle section__subtitle--intro">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Data Analyst & Web Developer
+                </p>
+                <img src="img/profile pic.jpeg" alt="pic of me "class="intro__img">
+            </h1>
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Data Analysis</h3>
+                    <p>Cleaning and mining data to find useful information. Use graphs to visualize the information and create 
+                        reports to demonstrate the findings.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Machine Learning Modeling</h3>
+                    <p>Understand the data needs of the clients.Create logical and physical data models using best practices to accord to clients' standards </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Web Developer</h3>
+                    <p>Create website layout/user interfaces by using standard HTML/CSS practices.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+        <!--About me-->
+        <section class="aboutme" id="about">
+            <h2 class="section__title section__title--about"> Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about"> 
+
+                I am a Data Analyst and a upcoming Web Developer 
+
+             </p>
+             <div class="about-me__body">
+                <p> My name is Zhaoyang Gu and I'm a Master of Statistics. I'm from China and
+                    currently living in the U.S. I enjoy making optimized decision and I consider myself as a data-driven person.
+                     I also enjoy programming and love to learn more. 
+                </p>
+                <p>I'm working as a Financial Analyst at J.P.Morgan Chase and making progress to become a professional developer. Please feel free to check
+                    my work as a Data Analyst and as a developer.  </p>
+            </div>
+
+        </section>
+
+        <!--My Work-->
+        <section class ="my-work" id="work">
+            <h2 class= "section__title"> My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://github.com/NMG1217/Data-Projects/tree/main/Wine%20Quality" class="portfolio__item">
+                    <img src="img/wine.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://github.com/NMG1217/Data-Projects/tree/main/Titanic" class="portfolio__item">
+                    <img src="img/titanic.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+                
+
+
+            
+        </section>
+
+
+        <footer class="footer">
+            <a href="zgu.work@gmail.com" class="footer__link">zgu.work@gmail.com </a>
+            <ul class="social-list"> 
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/zhaoyanggu/">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+                <li class="social-list__item"><a class ="social-list__link" href="https://github.com/NMG1217">
+                    <i class="fab fa-github"></i>
+                 </a></li>
+            </ul>
+        </footer>
+
+
+
+    </body>
+</html>
